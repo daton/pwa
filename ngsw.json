@@ -1,12 +1,12 @@
 {
   "configVersion": 1,
-  "timestamp": 1569818123030,
+  "timestamp": 1569821537765,
   "index": "/pwa/index.html",
   "assetGroups": [
     {
       "name": "app",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
+      "installMode": "lazy",
+      "updateMode": "lazy",
       "urls": [
         "/pwa/favicon.ico",
         "/pwa/index.html",
@@ -64,7 +64,7 @@
     "/pwa/index.html": "b03eadd9a18a1bc73f782f5961eb8742b0fa7813",
     "/pwa/main-es2015.c9e1fc22bcd572600e2d.js": "3226ddd8ac4e28a3824b6c56fb86588dd6023ca2",
     "/pwa/main-es5.c9e1fc22bcd572600e2d.js": "8eb937d3fabcb663935a9caa59ae11b1c23c1255",
-    "/pwa/manifest.webmanifest": "1ec8f711bda429ef64bac806ce1f4dbe3e5c3ede",
+    "/pwa/manifest.webmanifest": "e2636bd18fd8ee29166cd5cb2cbd5c8c3ed94d10",
     "/pwa/polyfills-es2015.d3e61f0dd2b58e518eca.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
     "/pwa/polyfills-es5.f8b5a32bf736d11d106f.js": "db091f7ef692a1d3add240459a2ea20c81cd6f19",
     "/pwa/runtime-es2015.b948044840398824f16e.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
