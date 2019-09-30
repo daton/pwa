@@ -1,0 +1,92 @@
+{
+  "configVersion": 1,
+  "timestamp": 1569814018184,
+  "index": "/pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/pwa/favicon.ico",
+        "/pwa/index.html",
+        "/pwa/main-es2015.6c82730dc3382fc5b9b0.js",
+        "/pwa/main-es5.6c82730dc3382fc5b9b0.js",
+        "/pwa/manifest.webmanifest",
+        "/pwa/polyfills-es2015.d3e61f0dd2b58e518eca.js",
+        "/pwa/polyfills-es5.f8b5a32bf736d11d106f.js",
+        "/pwa/runtime-es2015.b948044840398824f16e.js",
+        "/pwa/runtime-es5.b948044840398824f16e.js",
+        "/pwa/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/pwa/assets/icons/icon-128x128.png",
+        "/pwa/assets/icons/icon-144x144.png",
+        "/pwa/assets/icons/icon-152x152.png",
+        "/pwa/assets/icons/icon-192x192.png",
+        "/pwa/assets/icons/icon-384x384.png",
+        "/pwa/assets/icons/icon-512x512.png",
+        "/pwa/assets/icons/icon-72x72.png",
+        "/pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "primer-pwa",
+      "patterns": [
+        "https:\\/\\/sierra-guadalupe\\.org\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 86400000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/pwa/index.html": "144cf67ebdd25f6d230991130f2e6eaed89de02b",
+    "/pwa/main-es2015.6c82730dc3382fc5b9b0.js": "b670f59f30484ec6361f96798f0b6ed2c6685899",
+    "/pwa/main-es5.6c82730dc3382fc5b9b0.js": "e8b50c5b0eee0dd1a233a622cf9d02a630bff1ab",
+    "/pwa/manifest.webmanifest": "1ec8f711bda429ef64bac806ce1f4dbe3e5c3ede",
+    "/pwa/polyfills-es2015.d3e61f0dd2b58e518eca.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
+    "/pwa/polyfills-es5.f8b5a32bf736d11d106f.js": "db091f7ef692a1d3add240459a2ea20c81cd6f19",
+    "/pwa/runtime-es2015.b948044840398824f16e.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/pwa/runtime-es5.b948044840398824f16e.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/pwa/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
